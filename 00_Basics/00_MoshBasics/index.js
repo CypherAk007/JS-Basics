@@ -21,3 +21,15 @@ console.log(typeof(firstName)); //undefined
 // REFERENCE TYPES -> Object, ARRAY, FUNCTION 
 let selectedColor = null; // null => used to clear the value of variable
 console.log(typeof(selectedColor)); //object
+
+// OBJECTS
+// HOW TO CALL ANOTHER JS FILE IN THIS FILE 
+function loadScript(url)
+{    
+    var head = document.getElementsByTagName('head')[0];
+    var script = document.createElement('script');
+    script.type = 'text/javascript';
+    script.src = url;
+    head.appendChild(script);
+}
+loadScript('objects.js')
