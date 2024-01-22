@@ -33,3 +33,5 @@ function loadScript(url)
     head.appendChild(script);
 }
 loadScript('objects.js')
+loadScript('arrays.js')
+loadScript('functions.js')
