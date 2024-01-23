@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
+</head>
+<body>
+    <div class="bodybackground innerSpacing">
+
+        <h1 id="dmover">Hello World</h1>
+        
+        <button id="move" onclick="updateText()">Move</button>
+        <div class="div">
+            <input type="button" id="dmoverbtn" value="Undefined" class="btn "></button>
+            
+        </div>
+    </div>
+    <script type="text/javascript">
+        let flag =0;
+        function clickFlag(){
+            flag = 1-flag;
+        }
+        function updateText (){
+            console.log("inside");
+            console.log(flag);
+            clickFlag()
+            console.log(flag);
+
+            let ele = document.getElementById('dmoverbtn');
+            console.log(ele.value);
+            if ((ele.value==="Left" | ele.value==="Undefined") & flag==1){
+                ele.value = 'Right';
+                ele.innerHTML='Right'
+                document.getElementById('dmover').innerHTML = `Right`;
+                ele.classList.add('moveLeft')
+                ele.classList.remove('moveRight')
+                console.log('GoingRight');
+                
+                
+            }
+            else if((ele.value==="Right" | ele.value==="Undefined") & flag==0){
+                ele.value = 'Left';
+                ele.innerHTML='Left'
+                document.getElementById('dmover').innerHTML = `Left`;
+                ele.classList.remove('moveLeft')
+                ele.classList.add('moveRight')
+                console.log('GoingLeft');
+            } 
+            else{
+                ele.value = 'Undefined';
+                ele.innerHTML='Undefined'
+                document.getElementById('dmover').innerHTML = `Undifined`;
+            }
+
+        }
+
+        // document.getElementById('move').addEventListener('click',updateText);
+    </script>
+</body>
+</html>

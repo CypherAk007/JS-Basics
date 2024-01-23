@@ -13,3 +13,6 @@ const square = (number)=>{
 
 console.log(square(5));//25
 
+
+let flag = 0;
+

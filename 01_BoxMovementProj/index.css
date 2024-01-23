@@ -1,0 +1,35 @@
+.bodybackground{
+    display: block ;
+    /* flex-direction: column; */
+    width: 30%;
+    margin:100px auto;
+    border: 5px solid black;
+    text-align: center;
+}
+.innerSpacing{
+    padding: 50px;
+}
+
+
+.moveLeft{
+    transform: translateX(100px);
+
+}
+
+.moveRight{
+    transform: translateX(-100px);
+
+}
+div.div{
+    /* display: inline-block; */
+    /* background-color: yellow; */
+    /* padding: 10px; */
+    /* padding: 10px; */
+    /* margin-top: 5px; */
+    /* transition: all .2s; */
+}
+.btn{
+    
+    padding: 10px;
+    margin: 10px;
+}
