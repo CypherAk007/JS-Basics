@@ -13,14 +13,14 @@
 
 .moveLeft{
     transform: translateX(100px);
-
+    
 }
 
 .moveRight{
     transform: translateX(-100px);
-
+    
 }
-div.div{
+btnMover{
     /* display: inline-block; */
     /* background-color: yellow; */
     /* padding: 10px; */
@@ -31,5 +31,6 @@ div.div{
 .btn{
     
     padding: 10px;
+    transition: all 1s;
     margin: 10px;
 }
