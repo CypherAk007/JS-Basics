@@ -8,3 +8,5 @@
 -  Js Basics -W3 Schools - https://www.w3schools.com/js/js_exercises.asp
 -  Error Handling
     -   if(err instanceof TypeError) //Check for specific error in catch block.
+-  Event Handling
+    -  ![dropdown ss](ScreenShots/dropdown.png)
