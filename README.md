@@ -6,3 +6,5 @@
 - Concept -> accessing dom ele directly ( let ele = document.getElementById('dmoverbtn');) (dynamic css -> ele.classList.remove('moveLeft')  (<button id="move" onclick="updateText()">Move</button>))
 
 -  Js Basics -W3 Schools - https://www.w3schools.com/js/js_exercises.asp
+-  Error Handling
+    -   if(err instanceof TypeError) //Check for specific error in catch block.

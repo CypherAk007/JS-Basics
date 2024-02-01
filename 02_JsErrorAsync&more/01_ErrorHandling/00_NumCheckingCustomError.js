@@ -15,10 +15,6 @@ const validator = (num)=>{
             throw new Error("Not Valid")// Throws new Error Obj
             // throw "not valid" //Throws on given string -> not valid
         }
-   
-    
-    
-
 }
 
 let num = prompt("Enter Num: ")
