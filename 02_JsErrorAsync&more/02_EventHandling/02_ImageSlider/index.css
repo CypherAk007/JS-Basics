@@ -1,0 +1,11 @@
+#img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    /* flex-direction: ; */
+}
+#image{
+    height: 45%;
+    width: 45%;
+}

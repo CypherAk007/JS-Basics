@@ -6,7 +6,7 @@ const getInputValue =()=>{
         event.preventDefault();
         errMsgDiv.innerHTML=''
         const requiredFields = form.querySelectorAll('[required]')
-        console.log(requiredFields);
+        console.log(requiredFields,typeof(requiredFields));
         requiredFields.forEach((field) =>{
             console.log(field.value,field.getAttribute('name'))
             if (field.value.trim()===''){
