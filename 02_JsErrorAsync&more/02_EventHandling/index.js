@@ -56,4 +56,20 @@ const createDropDown = ()=>{
 
 }
 
-createDropDown()
+// createDropDown()
+
+const mouseHover = ()=>{
+    const changeColor = ()=>{
+        const input = document.getElementById('inputFeild')
+
+        input.style.backgroundColor = "blue"
+    }
+    const inp = document.createElement('input')
+    inp.setAttribute('id','inputFeild')
+    inp.style.backgroundColor = "green"
+    inp.addEventListener('mouseenter',changeColor)
+    document.body.appendChild(inp)
+}
+
+mouseHover()
+

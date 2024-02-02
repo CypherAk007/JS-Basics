@@ -9,4 +9,4 @@
 -  Error Handling
     -   if(err instanceof TypeError) //Check for specific error in catch block.
 -  Event Handling
-    -  ![dropdown ss](ScreenShots/dropdown.png)
+    -  ![dropdown ss](ScreenShots/dropdown.png) Dropdown To HTML Via JS
