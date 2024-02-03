@@ -1,4 +1,4 @@
-#list{
+#sortable{
     text-decoration: none;
     list-style: none;
     display: flex;
@@ -16,10 +16,14 @@ li{
     /* justify-content: center; */
     justify-content: space-between;
     align-items: center;
+    cursor: grab;
 }
 li:not(:last-child){
     border-bottom: 2px solid black;
 
+}
+li:hover{
+    background-color: lightgray;
 }
 #span{
     font-size: 150%;
