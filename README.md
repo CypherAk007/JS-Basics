@@ -12,3 +12,4 @@
     - ![dropdown ss](ScreenShots/dropdown.png) Dropdown To HTML Via JS.
     - ![Forms](ScreenShots/forms.png) Forms in JS.
     - ![imageslider](ScreenShots/imageSlider.png) Image Slider in JS.
+    - ![togglegreen](ScreenShots/greentoggle.png)![togglegreen](ScreenShots/redtoggle.png) Toggle button in Js.
