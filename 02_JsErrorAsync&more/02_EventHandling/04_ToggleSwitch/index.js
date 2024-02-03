@@ -4,9 +4,7 @@ const toggleEvent = ()=>{
     flag = !flag
     if (flag){
         tog.classList.add('on')
-
     }else{
-
         tog.classList.remove('on')
     }
     
