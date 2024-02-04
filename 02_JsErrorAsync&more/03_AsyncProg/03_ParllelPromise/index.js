@@ -27,4 +27,4 @@ const out =async(arr)=>{
     },idx*1000)
 })}
 
-fetcher()
+// fetcher()
